@@ -1,0 +1,11 @@
+print("SIMPLE INTEREST")
+
+p=int(input("Enter the initial amount : "))
+
+amount=float(input("Enter the interest rate per year(%) : "))
+
+t=float(input("Enter time(in years): "))
+
+a=(p*t*amount)/100
+
+print("Simple interest : ",a)
